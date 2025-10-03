@@ -1,11 +1,6 @@
-body{
-    background-color: azure;
-    display: flex;
-    justify-content: center;
-}
+/* General */
 
-.main{
-    width: 33%;
-    background-color: bisque;
-    margin: auto;
+* {
+    margin: 0;
+    padding: 0;
 }
