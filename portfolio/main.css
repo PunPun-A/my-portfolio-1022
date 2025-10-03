@@ -147,3 +147,72 @@ transform: rotate(-45deg) translate(10px, -5px);
 
 /* section */
 
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+}
+
+.section-container{
+    display: flex;
+}
+
+/* profile section */
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+
+}
+
+.section_pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section__text{
+    text-align: center;
+    align-self: center;
+}
+
+.section__text p{
+    font-weight: 600;
+}
+
+.section__text__p1{
+    text-align: center;
+}
+
+.section__text__p1{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* icon */
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* button */
+
