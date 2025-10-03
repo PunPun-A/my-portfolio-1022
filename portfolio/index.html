@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='mediaqueries.css'>
 </head>
 <body>
     <nav id = "desktop-nav" >
@@ -20,5 +21,23 @@
             </ul>
         </div>
     </nav>
+    <nav id = "hamburger-nav">
+         <div class = "logo">Theethuch Saresawat</div>
+          <div class = "Hamburger-Menu">
+            <div class = "Hamburger-icon" onclick = "toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+         </div>
+         <div class = "menu-links">
+            <li><a href="#about" onclick = "toggleMenu()">About</a></li>
+                <li><a href="#hobby" onclick = "toggleMenu()">Hobby</a></li>
+                <li><a href="#experinece" onclick = "toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick = "toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick = "toggleMenu()">Contacts</a></li>
+         </div>
+        </div>
+    </nav>
+</script scr = "script.js"></script>
 </body>
 </html>
