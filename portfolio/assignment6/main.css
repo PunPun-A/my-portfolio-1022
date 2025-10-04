@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+    padding: 10px;
+    margin: auto;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 30px;
+      
+}
+
+fieldset{
+    background-color: antiquewhite;
+    margin: auto;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 30px;
+}
+
+legend{
+    font-size: 50px;
+    background-color: beige;
+    text-align: center;
+    border-style: dotted;
+    margin: auto;
+    border-color: black;
+    border-radius: 10px;
+}
+
+span{
+    background-color: blanchedalmond;
+}
