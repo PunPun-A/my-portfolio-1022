@@ -419,7 +419,7 @@ article.icon{
 
 /* Footer Section */
 
-footer{
+footer {
     height: 26vh;
     margin: 0 1rem;
      text-align: center;
@@ -437,8 +437,4 @@ footer nav {
 footer .nav-links {
   justify-content: center;   
   gap: 2rem;                
-}
-
-footer {
-  text-align: center;      
 }
