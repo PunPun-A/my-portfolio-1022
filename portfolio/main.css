@@ -422,8 +422,23 @@ article.icon{
 footer{
     height: 26vh;
     margin: 0 1rem;
+     text-align: center;
 }
 
 footer p{
     text-align: center;
+}
+
+footer nav {
+  justify-content: center;  
+  align-items: center;
+}
+
+footer .nav-links {
+  justify-content: center;   
+  gap: 2rem;                
+}
+
+footer {
+  text-align: center;      
 }
