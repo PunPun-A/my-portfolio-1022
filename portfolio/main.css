@@ -313,3 +313,9 @@ color: white;
     width: 400px;
     margin: auto 0;
 }
+
+/* experience section */
+
+#experience{
+    position: relative;
+}
