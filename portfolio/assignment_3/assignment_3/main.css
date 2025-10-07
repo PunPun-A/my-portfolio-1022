@@ -1,0 +1,77 @@
+.flex_Container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.flex_Container > div{
+    
+    padding: 10px;
+    border: 2px dotted rgb(255, 91, 91);
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    
+   
+}
+
+body{
+    background-color: cornsilk;
+    border: 10px dotted rgb(255, 91, 91);
+}
+
+h4,h2,h3{
+    padding: 10px;
+
+}
+h4{
+    background-color: white;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+span{
+    background-color: yellow;
+}
+div{text-align: center;}
+#chicken-1{
+    text-align: center;
+    width: 100%;
+}
+#chicken-2{
+    text-align: center;
+    width: 100%;
+}
+#chicken-3{
+    text-align: center;
+    width: 100%;
+}
+#chicken-4{
+    text-align: center;
+    width: 100%;
+}
+#chicken-5{
+    border: 2px dotted rgb(255, 91, 91);
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    width: 30%;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+h1{
+    text-align: center;
+}

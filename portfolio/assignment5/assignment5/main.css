@@ -1,0 +1,16 @@
+h1{
+    background-color: aqua;
+    color: black;
+}
+.grid-container {
+    display: grid;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    background-color: green;
+}
+
+.grid-container > div {
+    background-color: white;
+    text-align: center;
+}

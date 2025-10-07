@@ -1,0 +1,183 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellow;
+}
+h4{
+    background-color: white;
+    padding: 10px;
+    border: 2px dotted rgb(255, 91, 91);
+    border-radius: 10px;
+    margin: auto;
+}
+h2{
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+span{
+    background-color: orange;
+    border-radius: 10px;
+}
+.flex_Container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+
+.flex_Container > div{
+    
+    padding: 10px;
+    border: 2px dotted rgb(255, 91, 91);
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    background-color: white;
+	text-align: left;
+    
+   
+}
+#chicken-1{
+    text-align: center;
+    width: 100%;
+}
+#chicken-2{
+    text-align: center;
+    width: 100%;
+}
+#chicken-3{
+    text-align: center;
+    width: 100%;
+}
+#chicken-4{
+    text-align: center;
+    width: 100%;
+}
+#pizza-dip-9{
+    padding: 10px;
+    border: 2px dotted rgb(255, 91, 91);
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+	text-align: left;
+}
+/* Basic CSS */
+body{
+    background-color: rgba(255, 174, 0, 0.486);
+}
+
+/* Grid display */
+ .grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+    margin: auto;
+    
+    
+}
+
+.grid-container > div{
+    border: 1px dashed rgb(255, 136, 0);
+    border-width: 10%;
+    font-size: 20px;
+    text-align: center;
+    background-color:rgb(170, 127, 78);
+    padding: 20px;
+} 
+
+ #header{
+    
+    grid-column: 1 / span 3;
+}
+
+#menu{
+    grid-column: 1 / span 1;
+}
+
+#main{
+    grid-column: 2 / span 1;
+}
+#right{
+    grid-column: 3 / span 1;
+}
+
+#footer{
+    grid-column: 1 / span 3;
+} 
+@media only screen and (max-width: 500px){
+    body{
+        background-color:  rgba(255, 174, 0, 0.486);
+    }
+} 
+
+
+@media only screen and (max-width: 767px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto 20%;
+        grid-gap: 10px;
+        text-align: center;
+    }
+    #header{
+        grid-column: 1 / span 2;
+    }
+    
+    #menu{
+        grid-column: 1 / span 1;
+        text-align: center;
+    }
+    
+    #main div{
+        display: inline-block;
+    }
+
+    #main{
+        grid-column: 2 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 2;
+    }
+    #footer{
+        grid-column: 1 / span 2;
+    }
+} 
+ @media only screen and (max-width: 500px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        text-align: center;
+    }
+    #header{
+        grid-column: 1 / span 1;
+    }
+    
+    #menu{
+        grid-column: 1 / span 1;
+    }
+    
+    #main{
+        grid-column: 1 / span 1;
+    }
+    #right{
+        grid-column: 1 / span 1;
+    }
+    #footer{
+        grid-column: 1 / span 1;
+    }
+}  
+
+
+ #right img{
+    width:100%;
+}
+
+#right div{
+    margin-bottom: 20px;
+} 
